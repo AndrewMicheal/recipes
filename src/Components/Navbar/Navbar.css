@@ -6,6 +6,7 @@ header{
 }
 .navbar-brand{
     margin-left: 60px;
+    cursor: pointer;
 }
 
 .link-color{
