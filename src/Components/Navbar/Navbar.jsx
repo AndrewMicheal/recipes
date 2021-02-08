@@ -8,7 +8,7 @@ class Navbar extends Component {
                 <header className = "position-fixed w-100">
                     <div className="container">
                         <nav className="navbar navbar-expand-lg">
-                            <a className="navbar-brand link-color" href="/">Navbar</a>
+                            <span className="navbar-brand link-color" href="/">recipes</span>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon btn-toggler-icon"></span>
                                     <span className="navbar-toggler-icon btn-toggler-icon"></span>
