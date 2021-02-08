@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "jquery/dist/jquery.min.js";
+import "popper.js/dist/umd/popper.min.js";
+import "bootstrap/dist/js/bootstrap.min.js";
+import { Provider } from 'react-redux';
+import { HashRouter } from 'react-router-dom';
+import {store} from "./Components/Store/Store";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <HashRouter>
+    <Provider store = {store}>
+      <App/>
+    </Provider>
+  </HashRouter>,
   document.getElementById('root')
 );
 
